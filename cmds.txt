@@ -1,0 +1,4 @@
+Training: python3 segment/train.py --data data/custom.yaml --batch 5 --weights '' --cfg yolov7-seg.yaml --epochs 150 --name yolov7-seg --hyp hyp.scratch-high.yaml
+
+predict: python3 segment/predict.py --weights "runs/train-seg/yolov7-seg2/weights/best.pt" --source "unseen/1.jpg"
+

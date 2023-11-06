@@ -1,0 +1,6 @@
+train: /Users/usama/Developer/X-Bio/YOLOv7/yolov7_instanceSegmentation/data/train/images
+val: /Users/usama/Developer/X-Bio/YOLOv7/yolov7_instanceSegmentation/data/valid/images
+test: /Users/usama/Developer/X-Bio/YOLOv7/yolov7_instanceSegmentation/data/test/images
+
+nc: 2
+names: ['dentist-items', 'object']
